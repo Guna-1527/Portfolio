@@ -1,0 +1,96 @@
+.Screen__Container {
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 20px;
+}
+.Screen__Content__Container {
+    max-width: 1100px;
+    margin: auto;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.Screen__Content {
+    flex: 1;
+    margin-top: 200px;
+}
+.Screen__Content__Title {
+    font-size: 1rem;
+}
+.Screen__Content__Name {
+    font-size: 4rem;
+}
+.Screen__Content__Text {
+    font-size: 1rem;
+    margin-top: 15px;
+    color: var(--btn-bg-color);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.Screen__Image__Container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Screen__Image {
+    width: 400px;
+    
+}
+.Screen__Btn {
+    padding: 10px 20px;
+    font-weight:700;
+    outline: none;
+    border: 2px solid var(--btn-bg-color);
+    background-color: var(--transparent-color);
+    color: var(--btn-bg-color);
+    margin-top: 20px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.Screen__Btn:hover {
+    background-color: var(--btn-bg-color);
+    color: var(--white-color);
+}
+.Screen__Icon {
+    margin-left: 10px;
+}
+.Screen__Content__Font {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--mid-grey-color);
+}
+
+@media (max-width: 768px) {
+    .Screen__Container {
+        height: auto;
+    }
+    .Screen__Content__Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Screen__Content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+    }
+    .Screen__Btn {
+        margin-bottom: 30px;
+    }
+    .Screen__Content__Title {
+        font-size: 20px;
+    }
+    .Screen__Content__Name {
+        font-size: 50px;
+        padding: 0 30px;
+    }
+    .Screen__Content__Text {
+        padding: 0 20px;
+    }
+    .Screen__Content__Font {
+        padding: 0 20px;
+    }
+}

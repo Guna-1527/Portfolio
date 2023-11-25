@@ -1,0 +1,77 @@
+.Skill__Container {
+    width: 100%;
+    height: 100vh;
+}
+.Skill__Title {
+    padding-top: 100px;
+    text-align: center;
+}
+.Skill__Content {
+    max-width: 1140px;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.Skill__Content__Row__One, .Skill__Content__Row__Two {
+    width: 100%;
+    height: calc(70vh / 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Skill__Content__Row__Two {
+    margin-top: 30px;
+}
+.Row__Identifier {
+    font-size: 10rem;
+    width: 100%;
+    z-index: -1;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+.Backend__Text {
+    text-align: right;
+}
+.Language {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    transition: .3s ease;
+}
+.Icon__Container {
+    padding: 30px;
+}
+.Language:hover {
+    transform: scale(1.1);
+}
+img {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .Skill__Content__Row__One, .Skill__Content__Row__Two {
+        flex-direction: column;
+        height: auto;
+    }
+    .Skill__Container {
+        height: auto;
+    }
+    .Skill__Content {
+        height: auto;
+        flex-direction: row;
+    }
+    .Language {
+        margin-top: 20px;
+    }
+    .Row__Identifier {
+        display: none;
+    }
+    .Icon__Container {
+        width: 150px;
+        object-fit: contain;
+        height: 180px;
+    }
+}

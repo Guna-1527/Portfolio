@@ -1,0 +1,52 @@
+@import "../../App.css";
+
+.Project__Container {
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+}
+.Project__Header {
+    text-align: center;
+    padding: 70px 0 0 0;
+}
+.Projects__Main__Container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Project__Card {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.Project__Card__Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Project__Card__Item__Image {
+    width: 300px;
+    height: 180px;
+    background-color: var(--white-color);
+}
+.Project__Card__Item__Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.Project__Card__Item__Content {
+    margin-top: 10px;
+    color: var(--btn-bg-color);
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}

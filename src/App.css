@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+:root {
+    --dark-grey-color: #313c52;
+    --mid-grey-color: #60697A;
+    --light-grey-color: #AAADB2;
+    --btn-bg-color: #B58E31;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --background-color: #fAfAfA;
+    --bg-color: #F5F5F5;
+    --transparent-color: #00000000;
+}
+
+.App {
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar {
+    width: 10px;;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--transparent-color);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--mid-grey-color);
+    border-radius: 200px;
+}
+.Max__Width__Screen {
+    max-width: 1440px;
+    margin: auto;
+}

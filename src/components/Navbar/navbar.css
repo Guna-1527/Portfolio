@@ -1,0 +1,118 @@
+@import "../../App.css";
+
+.Navbar__Container {
+    z-index: 9999;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    padding: 0 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.Navbar-Logo__Container {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.Navbar-Text-Content {
+    color: var(--black-color);
+}
+.Navbar-Logo__Container span {
+    color: var(--btn-bg-color);
+}
+.Navbar-Link__Container {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.Navbar-Link__Container li {
+    margin-left: 20px;
+}
+.Navbar-Link__Container li a {
+    color: var(--black-color);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+.active {
+    background-color: var(--btn-bg-color);
+    color: white !important;
+}
+.Navbar-Link__Container li a:hover {
+    background-color: var(--btn-bg-color);
+    color: white;
+}
+.Navbar-HandBurger {
+    width: 30px;
+    height: 30px;
+    display: none;
+    padding: 4px;
+    cursor: pointer;
+}
+.HandBurger__Icon {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .Navbar__Container {
+        padding: 0 25px;
+    }
+    .Navbar-Link__Container {
+        display: none;
+    }
+
+    .Navbar-HandBurger {
+        display: block;
+    }
+    .LeftNavbar__Slide {
+        width: 300px;
+        height: 100vh;
+        z-index: 1;
+        top: 60px;
+        position: absolute;
+        right: 0;
+    }
+    .LeftNavbar__Slide__Design {
+        background-color: var(--bg-color);
+        color: white;
+        list-style: none;
+        animation: SliderNavbar 1s;
+    }
+    @keyframes SliderNavbar {
+        0% {
+            right: -500px;
+        }
+        100% {
+            right: 0px;
+        }
+    }
+    .Anime__Deactive {
+        animation: SliderDeActive 1s;
+    }
+    @keyframes SliderDeActive {
+        0% {
+            right: 0px;
+        }
+        100% {
+            right: -500px;
+        }
+
+    }
+    .LeftNavbar__Slide__Design li {
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+    }
+    .LeftNavbar__Slide__Design li a {
+        padding: 10px;
+    }
+    .LeftNavbar__Slide__Design li a:hover {
+        background-color: var(--btn-bg-color);
+        color: var(--white-color);
+    }
+}
