@@ -25,7 +25,7 @@ const Projects = () => {
       id: 4,
       title: "Sly Crypto",
       image: "https://internationaljournalofresearch.files.wordpress.com/2020/07/5d07c76a696bfc4b3cb88294_cryptocurrency.jpg",
-      link: "https://crypto-web-cc58e.web.app"
+      link: "https://sly-eight.vercel.app/"
     }
   ]
 
