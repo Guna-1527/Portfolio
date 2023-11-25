@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "Netflix",
       image: "https://cdn.alza.cz/Foto/ImgGalery/Image/netflix-title_1.jpg",
-      link: "https://netflix-clone-cf4f6.web.app/"
+      link: "netflix-chi-topaz.vercel.app"
     },
     {
       id: 2,
