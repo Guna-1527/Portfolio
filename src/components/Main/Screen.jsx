@@ -14,7 +14,7 @@ const Screen = () => {
         
       </div>
       <div className="Screen__Image__Container">
-        <img className="Screen__Image" src="https://png.pngtree.com/png-vector/20220521/ourmid/pngtree-man-work-computer-deadline-office-png-image_4677851.png" alt="" />
+        <img className="Screen__Image" src="https://ucarecdn.com/d01bd116-2e18-41fc-9aa1-4a590c9cc8f1/" alt="" />
       </div>
       
       </div>
