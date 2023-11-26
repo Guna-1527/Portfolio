@@ -58,6 +58,7 @@
 .Screen__Content__Font {
     margin-top: 20px;
     font-size: 1.2rem;
+    text-align: justify;
     line-height: 1.5rem;
     color: var(--mid-grey-color);
 }
