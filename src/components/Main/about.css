@@ -37,8 +37,6 @@
     object-fit: contain;
 }
 .About__Content__Text {
-    margin-left: -100px;
-    
     margin-top: 30px;
     align-items: flex-start;
     flex: 1;
