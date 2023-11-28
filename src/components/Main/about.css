@@ -6,7 +6,8 @@
 .About__Width__Content {
     max-width: 1200px;
     height: 80vh;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,6 +38,7 @@
 }
 .About__Content__Text {
     margin-left: -100px;
+    
     margin-top: 30px;
     align-items: flex-start;
     flex: 1;
