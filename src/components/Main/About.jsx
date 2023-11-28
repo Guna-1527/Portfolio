@@ -9,9 +9,7 @@ const About = () => {
       <div className="About__Container__Content">
         <div className="About__Width__Content">
         <div className="About__Content">
-          <div className="About__Content__Image">
-            <img className="About__Image" src="https://png.pngtree.com/png-vector/20220521/ourmid/pngtree-man-work-computer-deadline-office-png-image_4677851.png" alt="" />
-          </div>
+          
           <div className="About__Content__Text">
             <p className="About__Text__Name">I&apos;m Guna Prasanth</p>
             <p className="About__Text__Profession">I&apos;m a Full Stack Web Developer.</p>
