@@ -17,6 +17,7 @@
 }
 .About__Content {
     display: flex;
+    text-align: center;
     width: 100%;
     justify-content: space-around;
 }
