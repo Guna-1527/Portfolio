@@ -8,7 +8,7 @@ const Screen = () => {
       <div className="Screen__Content__Container">
       <div className="Screen__Content">
         <h1 className="Screen__Content__Title">Hi, I&apos;m</h1>
-        <p className="Screen__Content__Name">Guna Prasanth</p>
+        <p className="Screen__Content__Name">Guna <br /> <span className="Addtional">Prasanth</span></p>
         <p className="Screen__Content__Text">I&apos;m a Full Stack Web Developer</p>
         <p className="Screen__Content__Font">I am a young passionate developer, ready to build enterprise-level applications that help businesses achieve their goals. I am eager to learn and grow, and I am confident that I can make a significant contribution to the assigned projects</p>
         

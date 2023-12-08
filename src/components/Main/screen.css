@@ -4,7 +4,7 @@
     margin-top: 20px;
 }
 .Screen__Content__Container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     height: inherit;
     display: flex;
@@ -16,9 +16,14 @@
 }
 .Screen__Content__Title {
     font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 .Screen__Content__Name {
     font-size: 4rem;
+}
+.Addtional {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .Screen__Content__Text {
     font-size: 1rem;
@@ -57,8 +62,8 @@
 }
 .Screen__Content__Font {
     margin-top: 20px;
-    font-size: 1.2rem;
-    text-align: justify;
+    font-size: 1.1rem;
+    text-align: start;
     line-height: 1.5rem;
     color: var(--mid-grey-color);
 }
@@ -78,6 +83,9 @@
         text-align: center;
         justify-content: flex-start;
     }
+    .Screen__Image__Container {
+        margin-top: 30px;
+    }
     .Screen__Btn {
         margin-bottom: 30px;
     }
@@ -93,5 +101,6 @@
     }
     .Screen__Content__Font {
         padding: 0 20px;
+        text-align: justify;
     }
 }

@@ -13,10 +13,7 @@ const About = () => {
           <div className="About__Content__Text">
             <p className="About__Text__Name namess">I&apos;m Guna Prasanth</p>
             <p className="About__Text__Profession namess">I&apos;m a Full Stack Web Developer.</p>
-            <p className="About__Text__Description namess">I&apos;m a Pega and Web Developer who loves to learn new technologies. </p>
-            <p className="About__Text__Description namess">Living in Tiruvannamalai. </p>
-            <p className="About__Text__Description namess"> Moved to Namakkal for complete my Senior Secondary in SKV Matric Higher secondary school.</p> 
-            <p className="About__Text__Description namess">And Currently pursuing my B.E. Computer Science and Engineering bacholar degree in Coimbatore.</p>
+            <p className="About__Text__Description namess">Guna Prasanth, a dynamic individual pursuing a Bachelor's degree in Computer Science and Engineering (B.E. CSE)in V.S.B College Of Engineering Technical Campus and a deep-rooted connection to the spiritual town of Thiruvannamalai. One of Guna Prasanth's standout qualities is his unwavering enthusiasm for learning new technologies.He is very good at web development.</p>
           </div>
         </div>
         </div>
