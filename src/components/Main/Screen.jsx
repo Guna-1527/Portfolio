@@ -1,6 +1,4 @@
 import "./screen.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 const Screen = () => {
   return (
