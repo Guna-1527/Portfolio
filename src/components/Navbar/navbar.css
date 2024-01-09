@@ -7,11 +7,12 @@
     position: fixed;
     top: 0;
     display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     align-items: center;
+    background-color: white;
     justify-content: space-between;
-    background-color: var(--bg-color);
     padding: 0 100px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
 }
 .Navbar-Logo__Container {
     font-size: 1.4rem;

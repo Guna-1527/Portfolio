@@ -13,7 +13,7 @@
     --dark-grey-color: #313c52;
     --mid-grey-color: #60697A;
     --light-grey-color: #AAADB2;
-    --btn-bg-color: #B58E31;
+    --btn-bg-color: black;
     --black-color: #000000;
     --white-color: #FFFFFF;
     --background-color: #fAfAfA;
@@ -21,9 +21,7 @@
     --transparent-color: #00000000;
 }
 
-.App {
-    background-color: var(--background-color);
-}
+
 
 ::-webkit-scrollbar {
     width: 10px;;
