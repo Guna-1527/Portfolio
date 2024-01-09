@@ -79,7 +79,6 @@
 @media (max-width: 767px) {
     .About__Container {
         height: auto;
-        padding: 0 50px;
     }
     .About__Content {
         display: flex;
