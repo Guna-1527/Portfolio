@@ -12,6 +12,7 @@
 }
 .Screen__Content {
     flex: 1;
+    margin-top: 150px;
 }
 .Screen__Content__Title {
     font-size: 1rem;
