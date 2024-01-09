@@ -89,6 +89,10 @@
     .Screen__Btn {
         margin-bottom: 30px;
     }
+    .Screen__Image {
+    width: 300px;
+    
+}
     .Screen__Content__Title {
         font-size: 20px;
     }
