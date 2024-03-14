@@ -13,7 +13,7 @@ const HomeLayoutTwo = () => {
         >
             <div className="flex max-w-[1400px] m-auto items-center justify-center h-screen">
                 <motion.div
-                    className="left"
+                    className="flex-1 left"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                 >
@@ -42,7 +42,11 @@ const HomeLayoutTwo = () => {
                         Temporibus fugit officia molestiae? Exercitationem
                         obcaecati facere sed ut ipsam animi illum?
                     </motion.p>
-                    <motion.div initial={{opacity: 0, x: -50}} transition={{ duration: 1, delay: 5.5 }} animate={{opacity:1, x: 0}}>
+                    <motion.div
+                        initial={{ opacity: 0, x: -50 }}
+                        transition={{ duration: 1, delay: 5.5 }}
+                        animate={{ opacity: 1, x: 0 }}
+                    >
                         <motion.button
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.85 }}
@@ -52,14 +56,21 @@ const HomeLayoutTwo = () => {
                         </motion.button>
                     </motion.div>
                 </motion.div>
+
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 7 }}
                     className="right"
                 >
-                    <About />
+                    <div className="flex-1">
+                        <img
+                            src="https://miro.medium.com/v2/resize:fit:1358/1*-ntL3Dsvc-dJ5cLGRtSuEw.gif"
+                            alt=""  
+                        />
+                    </div>
                 </motion.div>
+                <About />
             </div>
         </motion.div>
     );

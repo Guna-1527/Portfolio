@@ -4,21 +4,17 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 const Projects = () => {
     return (
-        <div className="ProjectContainer">
-            <marquee className="marqueeTitle">Projects</marquee>
+        <div className="overflow-hidden">
+            <marquee className="text-[5rem] text-[#efe7eb] font-extrabold w-full">Projects</marquee>
             <motion.div
                 initial={{ x: -2000, rotate: "0deg" }}
                 animate={{ x: 0, rotate: "360deg" }}
                 transition={{ duration: 2 }}
-                className="reactImage"
+                className="reactImage overflow-hidden"
             >
-                <img
-                    src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png"
-                    alt=""
-                />
             </motion.div>
 
-            <div className="MainProjectContainer">
+            <div className="overflow-hidden px-[30px] py-[50px]">
                 <div className="ProjectWrapper">
                     <motion.img
                         initial={{ y: -100, opacity: 0 }}
@@ -50,7 +46,7 @@ const Projects = () => {
                     />
                 </div>
                 <div>
-                    <Link className="text-black absolute bottom-[20px] right-[14px] font-bold" to="/">
+                    <Link className="absolute bottom-[40px] right-[50px] text-black font-bold hover:border-b-black" to="/">
                         Home
                     </Link>
                 </div>

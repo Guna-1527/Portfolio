@@ -124,9 +124,9 @@ const Skill = () => {
                     </div>
                 ))}
             </div>
-            <div className="NextSkill">
+            <motion.div className="absolute bottom-[40px] right-[50px] text-black font-bold hover:border-b-2 transition-all ease-in">
                 <Link to="/project">Projects</Link>
-            </div>
+            </motion.div>
         </div>
     );
 };

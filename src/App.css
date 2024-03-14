@@ -144,13 +144,7 @@ img {
     overflow-y: hidden;
     position: relative;
 }
-.reactImage {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    right: -170px;
-    top: -50px;
-}
+
 .pega {
     width: 500px;
     height: 500px;
@@ -163,7 +157,7 @@ img {
 }
 .ProjectWrapper {
     margin-top: 30px;
-    width: 400px;
+    width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: auto auto auto;

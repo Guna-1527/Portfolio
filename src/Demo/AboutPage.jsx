@@ -56,6 +56,16 @@ const AboutPage = () => {
                         />
                     </div>
                 </div>
+                <div>
+                    <motion.img
+                        initial={{ y: -20, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 4.5 }}
+                        className="w-[400px] h-[400px]"
+                        src="https://pngimg.com/uploads/man/small/man_PNG6534.png"
+                        alt=""
+                    />
+                </div>
                 <motion.div
                     initial={{ x: -2000 }}
                     animate={{ x: 0 }}
@@ -68,7 +78,10 @@ const AboutPage = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 4 }}
             >
-                <Link className="text-white absolute bottom-[20px] right-[14px] font-bold" to="/skill">
+                <Link
+                    className="absolute bottom-[40px] right-[50px] text-white font-bold hover:border-b-2 transition-all ease-in"
+                    to="/skill"
+                >
                     Skill
                 </Link>
             </motion.div>
