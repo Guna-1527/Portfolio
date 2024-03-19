@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 const SideBar = () => {
     const [isActive, SetisActive] = useState(false);
 
     console.log(isActive);
     return (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.4, delay: 7.3}} className="">
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.4, delay: 5.3}} className="">
             <div
                 onClick={() => {
                     SetisActive(!isActive);
@@ -17,11 +17,9 @@ const SideBar = () => {
                 {isActive ? "X" : <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" className="w-[30px] h-[30px]"></img>}
             </div>
             {isActive ? (
-                <AnimatePresence>
                     <motion.div
                         initial={{ x: -400 }}
                         animate={{ x: 0 }}
-                        transition={{ duration: 1.3 }}
                         className="absolute top-0 left-0 w-[400px] z-10 h-screen bg-gray-800 flex flex-col justify-center items-center font-bold text-[35px] gap-10"
                     >
                         <Link className="text-white" to="/">
@@ -37,7 +35,6 @@ const SideBar = () => {
                             Projects
                         </Link>
                     </motion.div>
-                </AnimatePresence>
             ) : (
                 ""
             )}

@@ -50,7 +50,7 @@ const HomeLayoutTwo = () => {
                         <motion.button
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.85 }}
-                            className="px-[15px] py-[12px] cursor-pointer outline-none mt-[25px] border-none bg-black text-white font-medium rounded-lg"
+                            className="px-[15px] py-[12px] cursor-pointer outline-none mt-[25px] border-none bg-[#313242] text-white font-medium rounded-lg"
                         >
                             Get in touch
                         </motion.button>
