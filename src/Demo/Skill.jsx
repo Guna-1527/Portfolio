@@ -2,6 +2,7 @@ import React from "react";
 import "../index.css";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import SideBar from "./SideBar";
 
 const Skill = () => {
     const frontend = [
@@ -61,6 +62,7 @@ const Skill = () => {
             id="skill"
             className=" relative flex flex-col justify-center items-center w-full h-[100vh] pt-[80px]"
         >
+            <SideBar />
             <motion.h1
                 initial={{ y: -300, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}

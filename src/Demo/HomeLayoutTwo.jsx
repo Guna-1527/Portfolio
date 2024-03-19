@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "../App.css";
 import About from "./About";
+import SideBar from "./SideBar";
 
 const HomeLayoutTwo = () => {
     return (
@@ -11,6 +12,7 @@ const HomeLayoutTwo = () => {
             transition={{ duration: 2, delay: 1 }}
             className="w-full h-screen bg-white absolute top-0"
         >
+            <SideBar />
             <div className="flex max-w-[1400px] m-auto items-center justify-center h-screen">
                 <motion.div
                     className="flex-1 left"
@@ -38,9 +40,7 @@ const HomeLayoutTwo = () => {
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 5 }}
                     >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Temporibus fugit officia molestiae? Exercitationem
-                        obcaecati facere sed ut ipsam animi illum?
+                        Dedicated Final Year Computer Science Engineering student with a fervent enthusiasm for technology and innovation.
                     </motion.p>
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}

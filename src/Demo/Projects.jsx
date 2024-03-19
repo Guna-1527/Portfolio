@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
+import SideBar from "./SideBar";
 const Projects = () => {
     return (
         <div className="overflow-hidden">
+            <SideBar />
             <marquee className="text-[5rem] text-[#efe7eb] font-extrabold w-full">Projects</marquee>
             <motion.div
                 initial={{ x: -2000, rotate: "0deg" }}
