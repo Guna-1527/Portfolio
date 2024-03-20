@@ -12,7 +12,7 @@ const SideBar = () => {
                 onClick={() => {
                     SetisActive(!isActive);
                 }}
-                className="absolute top-5 z-30 left-4 w-[50px] h-[50px] cursor-pointer text-white rounded-full flex justify-center items-center"
+                className="absolute top-0 z-30 left-0 w-[50px] h-[50px] cursor-pointer text-white rounded-full flex justify-center items-center"
             >
                 {isActive ? "X" : <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" className="w-[30px] h-[30px]"></img>}
             </div>
