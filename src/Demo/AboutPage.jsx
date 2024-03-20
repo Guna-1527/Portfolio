@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SideBar from "./SideBar";
 const AboutPage = () => {
     return (
-        <div className="about-max-width">
+        <div className="max-w-[1400px] m-auto h-screen overflow-hidden">
             <SideBar />
             <motion.h1
                 initial={{ y: -300, opacity: 0 }}
@@ -12,12 +12,12 @@ const AboutPage = () => {
                 transition={{ duration: 1, delay: 0.7 }}
                 className="text-center mt-[40px] mr-[25px] font-bold text-[2rem]"
             >
-                About <span className="text-[2rem] text-white">Me...</span>
+                About me
             </motion.h1>
-            <motion.div className="a">
-                <div className="flex-1">
+            <motion.div className="h-screen w-full flex justify-center items-center flex-col-reverse sm:flex-row-reverse sm:mt-[-100px]">
+                <div className="flex-1 sm:ml-[60px]">
                     <motion.h1
-                        className="font-bold text-4xl"
+                        className="text-center text-3xl font-bold sm:font-bold sm:text-4xl sm:text-left"
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay: 1.7 }}
@@ -29,7 +29,7 @@ const AboutPage = () => {
                         style={{ wordSpacing: "12px" }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 2.4 }}
-                        className="w-[600px] mt-[20px] text-justify mr-[20px] leading-[30px]"
+                        className="w-full px-10 mt-[20px] text-justify mr-[20px] leading-[30px] sm:px-0"
                     >
                         A dynamic individual pursuing a Bachelor's degree in
                         Computer Science and Engineering (B.E. CSE) in V.S.B
@@ -39,7 +39,7 @@ const AboutPage = () => {
                         qualities is his unwavering enthusiasm for learning new
                         technologies.He is very good at web development.
                     </motion.p>
-                    <div className="social">
+                    <div className="social flex items-center justify-center sm:justify-start">
                         <a target="_blank" href="https://www.linkedin.com/in/guna-prasanth/">
                             <motion.img
                                 initial={{ y: -20, opacity: 0 }}
@@ -73,12 +73,7 @@ const AboutPage = () => {
                         alt=""
                     />
                 </div>
-                <motion.div
-                    initial={{ x: -2000 }}
-                    animate={{ x: 0 }}
-                    transition={{ duration: 1 }}
-                    className="absolute h-screen w-[50%] bg-black top-0 right-0 z-[-1]"
-                ></motion.div>
+                <div></div>
             </motion.div>
             <motion.div
                 initial={{ opacity: 0 }}
@@ -86,7 +81,7 @@ const AboutPage = () => {
                 transition={{ duration: 1, delay: 4 }}
             >
                 <Link
-                    className="absolute bottom-[40px] right-[50px] text-white font-bold hover:border-b-2 transition-all ease-in"
+                    className="absolute bottom-[15px] right-[15px] text-black font-bold hover:border-b-2 transition-all ease-in"
                     to="/skill"
                 >
                     Skill
