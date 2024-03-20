@@ -132,7 +132,7 @@ const Skill = () => {
                     </div>
                 </div>
             </div>
-            <motion.div className="absolute bottom-[40px] right-[50px] text-black font-bold hover:border-b-2 transition-all ease-in">
+            <motion.div className="NextPage absolute bottom-[40px] right-[50px] text-black font-bold hover:border-b-2 transition-all ease-in">
                 <Link to="/project">Projects</Link>
             </motion.div>
         </div>
