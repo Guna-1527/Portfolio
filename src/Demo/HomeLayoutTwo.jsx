@@ -49,7 +49,7 @@ const HomeLayoutTwo = () => {
                         initial={{ opacity: 0, y: -50 }}
                         transition={{ duration: 1, delay: 5.8 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="flex items-center justify-center"
+                        className="flex items-center justify-center sm:justify-start"
                     >
                             <motion.button
                                 whileHover={{ scale: 1.1 }}
