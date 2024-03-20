@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const AboutPage = () => {
     return (
@@ -52,6 +53,18 @@ const AboutPage = () => {
                     </div>
                 </div>
             </div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1, delay: 4 }}
+            >
+                <Link
+                    className="absolute bottom-[15px] right-[15px] text-black font-bold hover:border-b-2 transition-all ease-in"
+                    to="/skill"
+                >
+                    Skill
+                </Link>
+            </motion.div>
         </div>
     );
 };
