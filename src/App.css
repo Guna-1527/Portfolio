@@ -173,8 +173,9 @@ img {
     object-fit: cover;
 }
 .aboutPageContainer {
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,6 +218,15 @@ img {
     line-height: 30px;
     display: flex;
     flex-direction: column;
+}
+.social {
+    margin-bottom: 30px;
+}
+.NextPage {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
 }
 
 @media (max-width: 800px) {
