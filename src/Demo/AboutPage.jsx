@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SideBar from "./SideBar";
 const AboutPage = () => {
     return (
-        <div className="max-w-[1400px] m-auto h-screen overflow-hidden">
+        <div className="max-w-[1400px] m-auto overflow-hidden">
             <SideBar />
             <motion.h1
                 initial={{ y: -300, opacity: 0 }}
