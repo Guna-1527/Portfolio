@@ -172,14 +172,68 @@ img {
     height: 250px;
     object-fit: cover;
 }
+.aboutPageContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.aboutHeaderContainer {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 14px;
+}
+.aboutWrapper {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 300px;
+    justify-content: space-between;
+}
+.aboutImageContainer {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.aboutDescriptionContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.aboutName {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.aboutDesc {
+    text-align: justify;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
 
-@media (max-width: 400px) {
-    .MainSecondLayout {
-        background-color: red;
+@media (min-width: 500px) {
+    .aboutWrapper {
         flex-direction: column;
-        height: 100vh;
-        display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .aboutDescriptionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    .aboutName {
+        font-size: 2.4rem;
+        font-weight: bold;
+        margin: 14px 0 20px 0;
     }
 }
