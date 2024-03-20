@@ -71,7 +71,7 @@ const Skill = () => {
             >
                 My Skills
             </motion.h1>
-            <div className="flex gap-20">
+            <div className="flex gap-20 sm:flex-col w-full justify-between">
                 <div className="relative flex justify-around items-center w-full">
                     <marquee
                         className="absolute z-[-3] font-bold text-[7rem] text-gray-200 hidden sm:flex"
@@ -80,7 +80,7 @@ const Skill = () => {
                     >
                         FRONTEND
                     </marquee>
-                    <div className="flex flex-col sm:flex gap-12">
+                    <div className="flex gap-12 flex-col sm:flex-row sm:w-full sm:justify-around">
                         {frontend.map((data, i) => (
                             <div key={i}>
                                 <div className="w-[100px] h-[100px] transition-all hover:scale-110 cursor-pointer">
@@ -102,7 +102,7 @@ const Skill = () => {
                         ))}
                     </div>
                 </div>
-                <div className="relative flex justify-around items-center w-full mt-[70px]">
+                <div className="relative flex justify-around items-center w-full">
                     <marquee
                         className="absolute z-[-3] font-bold text-[7rem] text-gray-200 hidden sm:flex"
                         behavior="Alternate"
@@ -110,7 +110,7 @@ const Skill = () => {
                     >
                         BACKEND
                     </marquee>
-                    <div className="flex flex-col gap-12 sm:flex">
+                    <div className="flex gap-12 flex-col sm:flex-row sm:w-full sm:justify-around">
                         {backend.map((data, i) => (
                             <div key={i} className="w-[100px] h-[100px]">
                                 <div className="w-[100px] transition-all hover:scale-110 h-[100px] cursor-pointer">
