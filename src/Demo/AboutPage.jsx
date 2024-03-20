@@ -1,10 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import SideBar from "./SideBar";
 
 const AboutPage = () => {
     return (
         <div className="aboutPageContainer">
+            <SideBar />
             <div className="aboutHeaderContainer">
                 <h1>About me</h1>
             </div>
