@@ -20,6 +20,7 @@ const SideBar = () => {
                     <motion.div
                         initial={{ x: -400 }}
                         animate={{ x: 0 }}
+                        transition={{duration: 1}}
                         className="absolute top-0 left-0 w-[400px] z-10 h-screen bg-gray-800 flex flex-col justify-center items-center font-bold text-[35px] gap-10"
                     >
                         <Link className="text-white" to="/">
