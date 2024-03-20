@@ -3,6 +3,7 @@ import "../index.css";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import SideBar from "./SideBar";
+import AnimationPage from "./AnimationPage";
 
 const Skill = () => {
     const frontend = [
@@ -60,8 +61,14 @@ const Skill = () => {
     return (
         <div
             id="skill"
-            className=" relative flex flex-col justify-center items-center w-full h-[100vh] pt-[80px]"
+            className="overflow-hidden relative flex flex-col justify-center items-center w-full h-[100vh] pt-[80px]"
         >
+            <div
+                initial={{ x: -1000, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 3 }}
+                className="w-full h-screen bg-red-300 absolute top-0 right-[100%]"
+            ></div>
             <SideBar />
             <motion.h1
                 initial={{ y: -300, opacity: 0 }}
